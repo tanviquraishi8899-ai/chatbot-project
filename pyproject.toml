@@ -1,1 +1,11 @@
-
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requrires - python = ">=3.14"
+dependencies = [ "langchain>=0.1.0",
+    "langchain-openai>=0.0.5",
+    "langgraph>=0.0.20",
+    "tavily-python>=0.3.0",
+    "python-dotenv>=1.0.0",]
